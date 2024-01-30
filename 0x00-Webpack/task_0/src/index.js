@@ -2,10 +2,8 @@ const $ = require('jquery');
 
 $(document).ready(function () {
   $('body').empty().append(`
-    Holberton Dashboard
-
-    Dashboard data for the students
-
-    Copyright - Holberton School
+     <p>Holberton Dashboard<p>
+    <p>Dashboard data for the students</p>
+    <p>Copyright - Holberton School</p>
   `);
 });
