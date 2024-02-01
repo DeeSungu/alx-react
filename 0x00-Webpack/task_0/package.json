@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:prod": "webpack --mode=production && cp src/index.html dist/index.html",
-    "build:dev": "webpack --mode=development && cp src/index.html dist/index.html"
+    "build:prod": "webpack --mode=production && cp src/index.js dist/index.html",
+    "build:dev": "webpack --mode=development && cp src/index.js dist/index.html"
   },
   "keywords": [],
   "author": "",
