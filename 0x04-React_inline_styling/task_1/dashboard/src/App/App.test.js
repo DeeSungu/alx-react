@@ -10,7 +10,11 @@
  import Login from "../Login/Login";
  import Footer from "../Footer/Footer";
  import CourseList from "../CourseList/CourseList";
+ import { StyleSheetTestUtils } from 'aphrodite';
  
+
+ StyleSheetTestUtils.suppressStyleInjection();
+
  describe("<App />", () => {
    it("renders an app component without crashing", () => {
      const wrapper = shallow(<App />);
