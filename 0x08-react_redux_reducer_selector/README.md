@@ -1,27 +1,15 @@
-TITLE
-0x08. React Redux reducer+selector
- RESOURCES
-Read or watch:
+PROJECT NAME
+ 0x07. React Redux action creator+normalizr
 
-Reducers
-Selectors
-Writing tests
-Immutable Map documentation
-Normalizr
-Normalizing State Shape
+PROJECT AUTHOR
 
-LEARNIG OBJECTIVES
+Diana Sungu
 
-At the end of this project, you should be able to explain to anyone, without the help of Google:
+AUTHOR'S EMAIL
 
-The purpose of a reducer and the role it plays within your application
-Why a reducer should stay as pure as possible
-Why mutations should not happen within a reducer
-The use of Immutable within the reducer
-The use of Normalizr within the app
-Selectors: what they are and when to use them
+sungudiana1@gmail.com
 
-REQUIEMENTS
+REQUIREMENTS
 
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
@@ -29,3 +17,14 @@ All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.
 A README.md file, at the root of the folder of the project, is mandatory
 Push all of your files, including package.json and .babelrc
 All of your functions must be exported
+
+RESOURCES
+
+Read or watch:
+
+Normalizr
+Normalizing State Shape
+Redux Getting started and core concepts
+Redux Actions
+Async Actions
+Writing tests for Redux
